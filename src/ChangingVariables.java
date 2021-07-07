@@ -17,8 +17,8 @@ public class ChangingVariables {
 
         */
 
-        double currentIncome = 62000;
-        double annualIncrease = 0.10;
+        float currentIncome = 62000F;
+        float annualIncrease = 0.10F;
 
         currentIncome = currentIncome + (currentIncome * annualIncrease);
         System.out.println("Salary after 1 year is: " + currentIncome);
@@ -34,7 +34,7 @@ public class ChangingVariables {
 
         currentIncome   = currentIncome + (currentIncome * annualIncrease);
         System.out.println("salary after 5 years is: " + currentIncome);
-        
+
 
     }
 }
