@@ -18,25 +18,7 @@ public class ChangingVariables {
             System.out.println("Your salary after " + i + " year is: " + salary);
         }
 
-/*
-        float currentIncome = 62000F;
-        float annualIncrease = 0.10F;
 
-        currentIncome = currentIncome + (currentIncome * annualIncrease);
-        System.out.println("Salary after 1 year is: " + currentIncome);
-
-        currentIncome = currentIncome + (currentIncome * annualIncrease);
-        System.out.println("Salary after 2 years is: " + currentIncome);
-
-        currentIncome = currentIncome + (currentIncome * annualIncrease);
-        System.out.println("Salary after 3 years is: "+ currentIncome);
-
-        currentIncome = currentIncome + (currentIncome * annualIncrease);
-        System.out.println("Salary after 4 years is: " + currentIncome);
-
-        currentIncome   = currentIncome + (currentIncome * annualIncrease);
-        System.out.println("salary after 5 years is: " + currentIncome);
-*/
 
     }
 }
