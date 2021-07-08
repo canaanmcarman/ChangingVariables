@@ -1,22 +1,24 @@
+import java.util.Scanner;
+
 public class ChangingVariables {
     public static void main(String[] args)
     {
-        /*
-        Begin
-            current income = 62000
-            annual increase = 0.10
-            new income = base income
-            index = 1
+        Scanner kb = new Scanner(System.in);
+        double salary;
+        double annualIncrease = 0.10;
+        int years;
 
-            loop as long as index is less than 6
-            current income = current income + (current income * 0.10)
-            display index as year + current income
+        System.out.print("What is your salary?: ");
+        salary = kb.nextDouble();
+        System.out.print("How many years would you like to calculate?: ");
+        years = kb.nextInt();
 
-            index = index + 1
-        End
+        for (int i = 1; i <= years; i++){
+            salary = salary + (salary * annualIncrease);
+            System.out.println("Your salary after " + i + " year is: " + salary);
+        }
 
-        */
-
+/*
         float currentIncome = 62000F;
         float annualIncrease = 0.10F;
 
@@ -34,7 +36,7 @@ public class ChangingVariables {
 
         currentIncome   = currentIncome + (currentIncome * annualIncrease);
         System.out.println("salary after 5 years is: " + currentIncome);
-
+*/
 
     }
 }
